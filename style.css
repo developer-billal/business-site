@@ -1,0 +1,405 @@
+/*Common CSS Style*/
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.main-container{
+    max-width: 1140px;
+    margin: 0 auto;
+}
+/*Top Header*/
+.top-header{
+    width: 100%;
+    min-height: 17px;
+    background: #0175b3;
+    overflow: hidden;
+    color: #fff;
+}
+
+.tot-header::after{
+    content: '';
+    display: block;
+    clear: both;
+}
+.phone-email{
+  float: left;
+  padding: 10px 0;
+  margin-left: 115px;
+}
+
+.phone{
+    float: left;
+}
+
+  .email{
+    float: left;
+    padding-left: 20px;
+}
+.social-icon{
+  float: right;
+  margin-right: 115px;
+  margin-top: 12px;
+}
+
+.social-icon i{
+    margin: 0 5px;
+  }
+
+/*==================================================
+           Primary Header With logo
+====================================================*/
+.primary-header{
+   padding: 10px 0;
+}
+.log{
+    float: left;
+    margin-left: 115px;
+}
+.log img{
+    width: 80px;
+}
+.navigaion-bar{
+    float: right;
+    margin-right: 115px;
+    padding: 20px 0;
+}
+
+.navigaion-bar ul{
+    float: left;
+}
+
+.navigaion-bar ul li{
+    float: left;
+    list-style-type: none;
+    margin: 0 16px;
+}
+
+.navigaion-bar ul li a{
+    text-decoration: none;
+}
+.search-box{
+    float: right;
+    position: relative;
+}
+
+/*==================================================
+           Hero Area
+====================================================*/
+.hero-area{}
+.hero-image{
+    background-image: url("img/hero-bg.jpg");
+    background-size:cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+    clear: both;
+}
+.description{
+    width: 50%;
+    float: left;
+    margin-left: 115px;
+    margin-top: 300px;
+}
+
+.description h1{
+    color: #0385cb;
+    font-size: 4em;
+}
+.description p{
+    color: #888888;
+    font-size: 1.4em;
+    margin-top: 20px;
+}
+.description button{
+    background: #017ec1;
+    border: none;
+    padding: 10px 30px;
+    font-size: 1.3em;
+    text-transform: uppercase;
+    color: #fff;
+    margin-top: 30px;
+}
+/*==================================================
+           Welcome Area
+====================================================*/
+.welcome-Area{
+    text-align: center;
+    padding: 20px 0;
+}
+.welcome-desc{
+    width: 80%;
+    margin: 0 auto;
+    position: relative
+}
+.welcome-Area h1 {
+    color: #0385cb;
+    font-size: 2.5em;
+    margin-bottom: 10px;
+}
+
+.welcome-desc p{
+    margin-top: 40px;
+}
+ .bottom-border{
+     width: 200px;
+     height: 2px;
+     background: #c3c2c2;
+     position: absolute;
+     left: 40%;
+ }
+ .bottom-border::after{
+    content: '';
+    width: 130px;
+    height: 3px;
+    background: #bdbbbb;
+    display: block;
+   position: absolute;
+   top: 8px;
+   left: 20%;
+}
+/*==================================================
+           Handshake Area
+====================================================*/
+.handShake-area{
+    padding: 50px 0;
+    color: #fff;
+    text-align: center;
+}
+.handshake-image{
+    background-image: url("img/hand-shake.jpg");
+    background-size: cover;
+    height: 70vh;
+}
+.handShake-desc{
+    width: 400px;
+    margin: 0 auto;
+    padding-top: 200px;
+    position: relative;
+}
+
+.handShake-desc h1{
+    font-size: 3rem;
+}
+.handShake-desc h1::after{
+    content: '';
+    width: 100px;
+    height: 3px;
+    background: #bdbbbb;
+    display: block;
+   position: absolute;
+   left: 40%;
+   margin: 10px 0;
+}
+.handShake-desc p{
+    font-size: 1.5rem;
+}
+
+.handShake-desc button{
+    background: #017ec1;
+    border: none;
+    padding: 10px 30px;
+    text-transform: uppercase;
+    color: #fff;
+    margin-top: 30px;
+    cursor: pointer;
+    margin-top: 60px;
+}
+/*==================================================
+           Team Area
+====================================================*/
+.team-area{
+    text-align: center;
+    background: #d8d8da;
+    padding-bottom: 50px;
+}
+.team-area::after{
+    content: '';
+    display: block;
+    clear: both;
+}
+
+.team-area h1{
+    color: #017ec1;
+    background: #fff;
+    padding: 30px 0;
+    font-size: 2.5em;
+}
+.members{
+    padding: 50px 16px;
+    max-width: 920px;
+    margin: auto;
+}
+.member1{
+    max-width: 200px;
+    float: left;
+    margin: 0 10px 0 10px;
+    background: #fff;
+    box-shadow: 2px 2px 5px gray,
+                -2px -2px 5px gray;
+}
+.member1 h3{
+    color: #017ec1;
+    padding: 10px 0;
+}
+.member1 p{
+    padding: 10px 10px 20px 10px;
+}
+.member1 img{
+    width: 200px;
+}
+/*==================================================
+                Services Area
+====================================================*/
+.service-area h1{
+    text-align: center;
+    padding-top: 30px;
+    color: #017ec1;
+    font-size: 2.50em;
+}
+
+.service-area .members::after{
+    content: '';
+    display: block;
+    clear: both;
+}
+.service-area .members{
+    padding: 50px 0;
+    text-align: center;
+}
+
+.service-area .members .member1{
+    padding: 30px 0;
+}
+.service-area .members .member1 img{
+    display: block;
+    width: 30px;
+    margin: 0 auto;
+}
+/*==================================================
+                Client Review
+====================================================*/
+.client-area{
+    color: #fff;
+    clear: both;
+    text-align: center;
+    background-image: url("img/client-review.jpg");
+    background-size: cover;
+    height: 300px;
+    height: 70vh;
+}
+
+.client-area h1{
+    text-align: center;
+    padding: 30px 0;
+    font-size: 2.50em;
+}
+.client-desc{
+    max-width: 730px;
+    margin: auto;
+    text-align: center;
+    color: rgb(226, 219, 219);
+}
+
+.client-desc img{
+    margin-top: 50px;
+}
+.client-desc button{
+    background: #017ec1;
+    border: none;
+    padding: 10px 30px;
+    text-transform: uppercase;
+    color: #fff;
+    margin-top: 30px;
+    cursor: pointer;
+    margin-top: 60px;
+    display: block;
+    margin: auto;
+    margin-top: 50px;
+}
+/*==================================================
+                About Us
+====================================================*/
+.aboutUs-area{
+    text-align: center;
+    padding: 30px 0;
+}
+.aboutUs-area h1{
+    color: #017ec1;
+    font-size: 2.5em;
+}
+.aboutUs-area p{
+    width: 500px;
+    margin: auto;
+    padding: 30px 0;
+}
+/*==================================================
+                Contact Area
+====================================================*/
+.contact-area{
+    background: #1a4876;
+    padding: 40px 0;
+    color: #fff;
+}
+.contact-area::after{
+    content: '';
+    display: block;
+    clear:both;
+}
+.contact-Desc{
+    width: 400px;
+    float: left;
+    margin-left: 115px;
+}
+form{
+    max-width: 500px;
+    float: right;
+}
+form input{
+    background: #fff;
+    border: none;
+    padding:10px 5px;
+    margin: 5px 0;
+}
+form input[type = "submit"]{
+    display: block;
+    padding: 10px 16px;
+    cursor: pointer;
+}
+/*==================================================
+                Footer Area
+====================================================*/
+.footer-area{
+  background: #363a42;
+  padding: 60px 0;
+  color: rgb(201, 196, 196);
+}
+.footer-area::after{
+    content: '';
+    display: block;
+    clear: both;
+  }
+
+.footer-area .about{
+    width: 250px;
+    float: left;
+    padding-left: 50px;
+}
+
+.footer-area .about ul{
+   padding-top: 10px;
+}
+.footer-area .about ul li{
+    list-style-type: none;
+    padding: 5px 0;
+}
+
+.footer-area .about form input[type = "submit"]{
+    background: #017ec1;
+    border: none;
+    padding: 10px 30px;
+    text-transform: uppercase;
+    color: #fff;
+    cursor: pointer;
+    display: block;
+}
